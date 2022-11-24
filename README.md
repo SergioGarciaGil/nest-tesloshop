@@ -21,9 +21,27 @@
 </p>
   
 Teslo API
-1. Levantar la base de datos
+1. Clonar proyecto
+```
+yarn install
+```
+3. Clonar el archivo 
+```.env.template``` y renombrarlo a ```.env```
+
+4. Cambiar las variables de entorno
+
+5. Levantar la base de datos
+
 ```
 docker-compose up -d
 ```
+
+2. Levantar
+
+```
+yarn start:dev
+```
+
 # nest-tesloshop
+
 # nest-tesloshop
