@@ -21,9 +21,10 @@ export class Product {
     description: string;
 
     @Column('text', {
-        unique: true
+
     })
-    slug: string;
+    // 
+    slug?: string;
 
     @Column('int', {
         default: 0
@@ -35,10 +36,9 @@ export class Product {
     })
     sizes: string[]
 
-    @Column('text', {
-        array: true
-    })
-    gender: string
+
+
+
 
 
 }
