@@ -17,7 +17,7 @@ export class CreateProductDto {
     dscription?: String
 
     @IsString()
-
+    @IsOptional()
     slug?: string;
 
     @IsInt()
